@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Logo -->
+    <link href="static/images/logo.ico" rel="shortcut icon">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Static CSS -->
+    <link href="static/css/casescss.css" rel="stylesheet"/>
+
+    <title>Кейсы TG-Tech</title>
+  </head>
+  <body>
+    <h1 class="cases-title neon-text">Кейсы</h1>
+    <div class="case-banner-1" onclick="window.location='https://tg-tech.ru/posylochka.html';">
+      <div class="case-flex">
+        <img src="static/images/posylochka.png">
+        <div class="case-info-block">
+          <div class="case-title neon-text">Посылочка</div>
+          <div class="case-text neon-text">Компания, занимающаяся подбором и доставкой профессиональной спортивной эпикировки</div>
+        </div>
+      </div>
+    </div>
+    <div class="case-banner-2" onclick="window.location='https://tg-tech.ru/happypc.html';">
+      <div class="case-flex">
+        <img src="static/images/happypc.png">
+        <div class="case-info-block">
+          <div class="case-title neon-text">HappyPC</div>
+          <div class="case-text neon-text">Компания, занимающаяся сборкой/кастомизацией персональных компьютеров на заказ.</div>
+        </div>
+      </div>
+    </div>
+    <div class="box" id='form'>
+      <form action='form.php' method="POST" autocomplete="off" novalidate>
+        <h2 class="neon-text">Заполните форму, и мы свяжемся с Вами в ближайшее время</h2>
+        <div class="inputBox">
+          <input type="text" id='username' name='username' required="required">
+          <span>Имя</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="text" id='phone_number' name='phone_number' required="required">
+          <span>Телефон</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input id='email' name='email' required="required">
+          <span>Электронная почта</span>
+          <i></i>
+        </div>
+        <input name='submitButton' type="submit" value="Подать заявку">
+      </form>
+    </div>
+
+    <div class="form-text-nearby neon-text">
+      <h2 class="form-title">Готовы пообщаться?</h2>
+      <h2 class="form-text1">Закажите разработку собственного бота и запустите автоматизацию бизнес-процессов прямо сейчас!</h2>
+      <h2 class="form-text2">Бот увеличит продажи, сократит затраты на менеджеров и возглавит поддержку Ваших клиентов в Telegram.</h2>
+    </div>
+
+    <div class="footer">
+      <p class="logo-footer neon-text">© TG-Tech, 2020</p>
+      <a type='button' href="https://tg-tech.ru/oferta.html" class='oferta neon-text'>Публичная оферта</a>
+      <a type='button' href="https://tg-tech.ru/#chatbot" class="chatbot-footer neon-text">Чат-боты</a>
+      <a type='button' href="https://tg-tech.ru/#solutions" class="for-business-footer neon-text">Для бизнеса</a>
+    </div>
+  </body>
+</html>

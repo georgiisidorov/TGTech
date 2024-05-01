@@ -1,0 +1,2230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*------------- О Б Щ И Е   Н А С Т Р О Й К И ---------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+	--blue: #338ec5;
+	--white: #fff;
+	--black1: #111;
+	--black2: #999;
+	--sidebar-color: #242c39;
+	--body-color: #f1f4f9;
+	--border-color: #a4aeb9;
+	--neon-color-1: #7B00B0;
+	--neon-color-2: #5D0284;
+	--neon-color-3: #A302E9;
+	--neon-color-4: #42035d;
+}
+
+.neon-text {
+	padding-top: 15px;
+	color: #fff;
+	text-shadow: 
+		0 0 1px #fff,
+		0 0 3px #fff,
+		0 0 8px var(--neon-color-1),
+		0 0 15px var(--neon-color-1),
+		0 0 25px var(--neon-color-1),
+		0 0 45px var(--neon-color-1),
+		0 0 60px var(--neon-color-1);
+}
+
+
+/*---------------------------------------------------*/
+
+@media all and (min-width: 1921px) {
+		body {
+			display: block;
+			background-color: var(--black1);
+			position: relative;
+			overflow-x: hidden;
+			width: 100%;
+		}
+
+		a .fas {
+			cursor: pointer;
+			position: absolute;
+			margin-top: 350px;
+			font-size: 60px;
+		}
+
+		.upper {
+			position: absolute;
+			margin-top: -120px;
+			margin-bottom: 100px;
+		}
+
+		.home-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 50px;
+			text-decoration: none;
+		}
+
+		.home-upper:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 1500px;
+			text-decoration: none;
+		}
+		.chatbot-upper:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-upper {
+			position: absolute;
+			font-size: 30px;
+			width: 300px;
+			margin-left: 1750px;
+			text-decoration: none;
+		}
+		.for-business-upper:hover {
+			text-decoration: underline;
+		}
+
+		/*----------------------------------------------------------------*/
+
+		.title-and-photo {
+			position: relative;
+			margin-top: 150px;
+			display: flex;
+			margin-bottom: 200px;
+		}
+
+		.case-title-and-main-text {
+			display: block;
+		}
+
+		.case-main-text {
+			width: 1100px;
+			font-weight: 400;
+			margin-top: 50px;
+			padding-left: 50px;
+			font-size: 30px;
+		}
+
+		.case-title {
+			text-align: center;
+			font-size: 50px;
+			width: 1100px;
+			margin-top: 100px;
+			padding-left: 50px;
+		}
+
+		img {
+			position: absolute;
+		}
+
+		.iphone {
+			width: 530px;
+			margin-left: 1350px;
+			height: auto;
+			z-index: 1000;
+		}
+
+		.screen {
+			width: 450px;
+			padding-top: 40px;
+			padding-left: 33px;
+			z-index: 500;
+			height: auto;
+			margin-left: 1350px;
+		}
+
+		.active {
+			z-index: 700;
+		}
+
+		.info-problem, .decision-summary {
+			padding-left: 50px;
+			padding-right: 50px;
+			display: flex;
+		}
+
+		.info-problem {
+			margin-top: 500px;
+		}
+
+		.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+			display: block;
+			width: 900px;
+			position: relative;
+		}
+
+		.case-problem-block, .case-summary-block {
+			margin-left: 100px;
+		}
+
+		.case-info-title, .case-problem-title, .case-decision-title, .case-summary-title {
+			font-size: 50px;
+		}
+
+		.case-info-text, .case-problem-text, .case-decision-text, .case-summary-text {
+			font-size: 30px;
+			font-weight: 400;
+		}
+
+		.functionality {
+			margin-top: 150px;
+			display: flex;
+			margin-left: 25px;
+		}
+
+		.functionality-block {
+			margin-top: 50px;
+			margin-left: 20px;
+			display: block;
+		}
+
+		.functionality-main-title {
+			margin-top: -70px;
+			margin-left: 20px;
+			font-size: 50px;
+			position: absolute;
+		}
+
+		.functionality-title {
+		/*	text-align: center;*/
+			font-weight: 600;
+			font-size: 35px;
+		}
+
+		.functionality-text {
+			font-size: 30px;
+		}
+
+		.fa-circle-chevron-right {
+			position: relative;
+			margin-top: 8px;
+		/*	margin-right: 10px;*/
+			font-size: 30px;
+		}
+
+
+		.decision-summary {
+			margin-top: 100px;
+			display: flex;
+		}
+
+		.fa-circle-arrow-left{
+			cursor: default;
+			font-size: 80px;
+			margin-top: 600px;
+			margin-left: 85px;
+		}
+
+		.edge-button {
+			color: #999;
+		}
+
+		.fa-circle-arrow-right {
+			position: absolute;
+			font-size: 80px;
+			margin-top: 600px;
+			margin-left: 755px;
+		}
+
+		.fa-circle-arrow-left:active, .fa-circle-arrow-right:active {
+			color: var(--black2);
+		}
+
+		/*-------------------------------------------------------------------*/
+		.box {
+			position: relative;
+			margin-top: 100px;
+			margin-left: 75px;
+			margin-bottom: 150px;
+			width: 500px;
+			height: 790px;
+			background: #000;
+			border-radius: 8px;
+			overflow: hidden;
+			display: flex;
+		}
+		.box::before {
+			margin-top: 223px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 500px;
+			height: 565px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+		}
+		.box::after {
+			margin-top: 223px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 500px;
+			height: 565px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+			animation-delay: -3s;
+		}
+		@keyframes animate {
+			0%
+			{
+				transform: rotate(0deg);
+			}
+			100%
+			{
+				transform: rotate(360deg);
+			}
+		}
+		.box form {
+			position: absolute;
+			inset: 4px;
+			background: #111;
+			padding: 50px 40px;
+			border-radius: 8px;
+			z-index: 2;
+			display: flex;
+			flex-direction: column;
+		}
+		.box form h2 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 500;
+			text-align: center;
+			letter-spacing: 0.1em;
+			margin-bottom: 55px;
+		}
+		.box form .inputBox {
+			position: relative;
+			width: 95%;
+			margin-top: 25px;
+		}
+		.box form .inputBox input {
+			margin-top: 15px;
+			position: relative;
+			width: 100%;
+			padding: 20px 10px 10px;
+			background: transparent;
+			outline: none;
+			border: none;
+			box-shadow: none;
+			color: #242c39;
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+			z-index: 10;
+		}
+		.box form .inputBox span {
+			margin-top: -6vh;
+			position: absolute;
+			left: 0;
+			padding: 20px 0px 10px;
+			pointer-events: none;
+			color: #8f8f8f;
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+		}
+		.box form .inputBox input:valid ~ span,
+		.box form .inputBox input:focus ~ span {
+			color: #fff;
+			font-size: 0.75em;
+			transform: translateY(-34px);
+		}
+		.box form .inputBox i {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 2px;
+			background: #fff;
+			border-radius: 4px;
+			overflow: hidden;
+			transition: 0.5s;
+			pointer-events: none;
+		}
+		.box form .inputBox input:valid ~ i,
+		.box form .inputBox input:focus ~ i {
+			height: 44px;
+		}
+		.box form input[type='submit'] {
+			border: none;
+			outline: none;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			color: #fff;
+			background: linear-gradient(var(--neon-color-1), var(--neon-color-2)) var(--neon-color-2);
+			cursor: pointer;
+			font-size: 1.5em;
+			border-radius: 4px;
+			font-weight: 400;
+			text-align: center;
+			width: 95%;
+			height: 60px;
+			margin-top: 10.5vh;
+		}
+
+		.box form input[type='submit']:hover { background: linear-gradient(#9724c8, #661987) #9724c8; }
+		.box form input[type='submit']:active { background: linear-gradient(#661987, #9724c8) #661987; }
+
+
+		.form-title {
+			position: absolute;
+			letter-spacing: 0.05em;
+			font-size: 80px;
+			margin-top: -90vh;
+			margin-left: 35vw;
+		}
+
+		.form-text1 {
+			position: absolute;
+			font-weight: 400;
+			width: 60vw;
+			font-size: 36px;
+			margin-top: -70vh;
+			margin-left: 35vw;
+		}
+
+		.form-text2 {
+			position: absolute;
+			font-weight: 400;
+			width: 60vw;
+			font-size: 36px;
+			margin-top: -50vh;
+			margin-left: 35vw;
+		}
+
+
+		/*------------------------- П О Д В А Л -----------------------------------------*/
+
+		.footer {
+			position: absolute;
+			margin-top: -75px;
+			margin-left: 75px;
+		}
+
+		.logo-footer {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			padding-bottom: 50px;
+		}
+
+		.oferta {
+			position: absolute;
+			margin-left: 17.5vw;
+			width: 300px;
+			font-size: 30px;
+			text-decoration: none;
+		}
+		.oferta:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-footer {
+			position: absolute;
+			font-size: 30px;
+			width: 180px;
+			margin-left: 65vw;
+			text-decoration: none;
+		}
+		.chatbot-footer:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-footer {
+			position: absolute;
+			width: 230px;
+			font-size: 30px;
+			margin-left: 80vw;
+			text-decoration: none;
+		}
+		.for-business-footer:hover {
+			text-decoration: underline;
+		}
+}
+
+@media all and (max-width: 1920px) {
+		body {
+			display: block;
+			background-color: var(--black1);
+			position: relative;
+			overflow-x: hidden;
+			width: 100%;
+		}
+
+		a .fas {
+			cursor: pointer;
+			position: absolute;
+			margin-top: 350px;
+			font-size: 60px;
+		}
+
+		.upper {
+			position: absolute;
+			margin-top: -120px;
+			margin-bottom: 100px;
+		}
+
+		.home-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 50px;
+			text-decoration: none;
+		}
+
+		.home-upper:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 1400px;
+			text-decoration: none;
+		}
+		.chatbot-upper:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-upper {
+			position: absolute;
+			font-size: 30px;
+			width: 300px;
+			margin-left: 1600px;
+			text-decoration: none;
+		}
+		.for-business-upper:hover {
+			text-decoration: underline;
+		}
+
+		/*----------------------------------------------------------------*/
+
+		.title-and-photo {
+			position: relative;
+			margin-top: 150px;
+			display: flex;
+			margin-bottom: 200px;
+		}
+
+		.case-title-and-main-text {
+			display: block;
+		}
+
+		.case-main-text {
+			width: 800px;
+			font-weight: 400;
+			margin-top: 50px;
+			padding-left: 50px;
+			font-size: 25px;
+		}
+
+		.case-title {
+			text-align: center;
+			font-size: 40px;
+			width: 800px;
+			margin-top: 100px;
+			padding-left: 50px;
+		}
+
+		img {
+			position: absolute;
+		}
+
+		.iphone {
+			width: 400px;
+			margin-left: 1250px;
+			height: auto;
+			z-index: 1000;
+		}
+
+		.screen {
+			width: 350px;
+			padding-top: 25px;
+			padding-left: 25px;
+			z-index: 500;
+			height: auto;
+			margin-left: 1250px;
+		}
+
+		.active {
+			z-index: 700;
+		}
+
+		.info-problem, .decision-summary {
+			padding-left: 50px;
+			padding-right: 50px;
+			display: flex;
+		}
+
+		.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+			display: block;
+			width: 800px;
+			position: relative;
+		}
+
+		.case-problem-block, .case-summary-block {
+			margin-left: 140px;
+		}
+
+		.case-info-title, .case-problem-title, .case-decision-title, .case-summary-title {
+			font-size: 40px;
+		}
+
+		.case-info-text, .case-problem-text, .case-decision-text, .case-summary-text {
+			font-size: 30px;
+			font-weight: 400;
+		}
+
+		.functionality {
+			margin-top: 150px;
+			display: flex;
+			margin-left: 25px;
+		}
+
+		.functionality-block {
+			width: 30%;
+			margin-left: 20px;
+			display: block;
+		}
+
+		.functionality-main-title {
+			margin-top: -70px;
+			margin-left: 20px;
+			font-size: 45px;
+			position: absolute;
+		}
+
+		.functionality-title {
+		/*	text-align: center;*/
+			font-weight: 600;
+			font-size: 37.5px;
+		}
+
+		.functionality-text {
+			font-size: 30px;
+		}
+
+		.fa-circle-chevron-right {
+			position: relative;
+			margin-top: 8px;
+		/*	margin-right: 10px;*/
+			font-size: 30px;
+		}
+
+
+		.decision-summary {
+			margin-top: 100px;
+			display: flex;
+		}
+
+		.fa-circle-arrow-left{
+			cursor: default;
+			margin-left: 535px;
+		}
+
+		.edge-button {
+			color: #999;
+		}
+
+		.fa-circle-arrow-right {
+			position: absolute;
+			margin-left: 905px;
+		}
+
+		.fa-circle-arrow-left:active, .fa-circle-arrow-right:active {
+			color: var(--black2);
+		}
+
+		/*-------------------------------------------------------------------*/
+		.box {
+			position: relative;
+			margin-top: 100px;
+			margin-left: 75px;
+			margin-bottom: 250px;
+			width: 500px;
+			height: 790px;
+			background: #000;
+			border-radius: 8px;
+			overflow: hidden;
+			display: flex;
+		}
+		.box::before {
+			margin-top: 223px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 500px;
+			height: 565px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+		}
+		.box::after {
+			margin-top: 223px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 500px;
+			height: 565px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+			animation-delay: -3s;
+		}
+		@keyframes animate {
+			0%
+			{
+				transform: rotate(0deg);
+			}
+			100%
+			{
+				transform: rotate(360deg);
+			}
+		}
+		.box form {
+			position: absolute;
+			inset: 4px;
+			background: #111;
+			padding: 50px 40px;
+			border-radius: 8px;
+			z-index: 2;
+			display: flex;
+			flex-direction: column;
+		}
+		.box form h2 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 500;
+			text-align: center;
+			letter-spacing: 0.1em;
+			margin-bottom: 55px;
+		}
+		.box form .inputBox {
+			position: relative;
+			width: 95%;
+			margin-top: 25px;
+		}
+		.box form .inputBox input {
+			position: relative;
+			width: 100%;
+			padding: 20px 10px 10px;
+			background: transparent;
+			outline: none;
+			border: none;
+			box-shadow: none;
+			color: #242c39;
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+			z-index: 10;
+		}
+		.box form .inputBox span {
+			margin-top: -6vh;
+			position: absolute;
+			left: 0;
+			padding: 20px 0px 10px;
+			pointer-events: none;
+			color: #8f8f8f;
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+		}
+		.box form .inputBox input:valid ~ span,
+		.box form .inputBox input:focus ~ span {
+			color: #fff;
+			font-size: 0.75em;
+			transform: translateY(-34px);
+		}
+		.box form .inputBox i {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 2px;
+			background: #fff;
+			border-radius: 4px;
+			overflow: hidden;
+			transition: 0.5s;
+			pointer-events: none;
+		}
+		.box form .inputBox input:valid ~ i,
+		.box form .inputBox input:focus ~ i {
+			height: 44px;
+		}
+		.box form input[type='submit'] {
+			border: none;
+			outline: none;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			color: #fff;
+			background: linear-gradient(var(--neon-color-1), var(--neon-color-2)) var(--neon-color-2);
+			cursor: pointer;
+			font-size: 1.5em;
+			border-radius: 4px;
+			font-weight: 400;
+			text-align: center;
+			width: 95%;
+			height: 60px;
+			margin-top: 10.5vh;
+		}
+
+		.box form input[type='submit']:hover { background: linear-gradient(#9724c8, #661987) #9724c8; }
+		.box form input[type='submit']:active { background: linear-gradient(#661987, #9724c8) #661987; }
+
+
+		.form-title {
+			position: absolute;
+			letter-spacing: 0.05em;
+			font-size: 80px;
+			margin-top: -90vh;
+			margin-left: 35vw;
+		}
+
+		.form-text1 {
+			position: absolute;
+			font-weight: 400;
+			width: 60vw;
+			font-size: 36px;
+			margin-top: -70vh;
+			margin-left: 35vw;
+		}
+
+		.form-text2 {
+			position: absolute;
+			font-weight: 400;
+			width: 60vw;
+			font-size: 36px;
+			margin-top: -50vh;
+			margin-left: 35vw;
+		}
+
+
+		/*------------------------- П О Д В А Л -----------------------------------------*/
+
+		.footer {
+			position: absolute;
+			margin-top: -75px;
+			margin-left: 75px;
+		}
+
+		.logo-footer {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			padding-bottom: 50px;
+		}
+
+		.oferta {
+			position: absolute;
+			margin-left: 17.5vw;
+			width: 25vw;
+			font-size: 30px;
+			text-decoration: none;
+		}
+		.oferta:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-footer {
+			position: absolute;
+			width: 25vw;
+			font-size: 30px;
+			margin-left: 67.5vw;
+			text-decoration: none;
+		}
+		.chatbot-footer:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-footer {
+			position: absolute;
+			font-size: 30px;
+			width: 25vw;
+			margin-left: 80vw;
+			text-decoration: none;
+		}
+		.for-business-footer:hover {
+			text-decoration: underline;
+		}
+
+		.iphone{
+			width: 450px;
+		}
+		.screen {
+			padding-top: 30px;
+			padding-left: 30px;
+			width: 390px;
+		}
+
+		.case-main-text {
+			width: 1050px;
+			font-weight: 400;
+			margin-top: 50px;
+			padding-left: 50px;
+			font-size: 30px;
+		}
+
+		.case-title {
+			text-align: center;
+			font-size: 45px;
+			width: 1050px;
+		}
+
+		.fa-circle-arrow-left {
+			cursor: default;
+			margin-left: 35px;
+		}
+		.fa-circle-arrow-right {
+			margin-left: 620px;
+		}
+}
+
+@media all and (max-width: 1870px) {
+	.form-text1, .form-text2 {
+		width: 50vw;
+	}
+	.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+		display: block;
+		width: 750px;
+		position: relative;
+	}
+	.home-upper, .chatbot-upper, .for-business-upper {
+		font-size: 30px;
+	}
+	.chatbot-upper {
+		margin-left: 1150px;
+	}
+	.for-business-upper {
+		margin-left: 1400px;
+	}
+	.case-main-text, .case-title {
+		width: 850px;
+	}
+	.iphone, .screen {
+		margin-left: 1100px;
+	}
+	.iphone{
+		width: 450px;
+	}
+	.screen {
+		padding-top: 30px;
+		padding-left: 30px;
+		width: 390px;
+	}
+	.fa-circle-arrow-left{
+		cursor: default;
+		margin-left: 130px;
+	}
+	.fa-circle-arrow-right {
+		position: absolute;
+		margin-left: 660px;
+	}
+	.logo-footer {
+		position: absolute;
+		width: 300px;
+		font-size: 30px;
+		padding-bottom: 50px;
+	}
+	.oferta {
+		position: absolute;
+		margin-left: 330px;
+		width: 300px;
+		font-size: 30px;
+		text-decoration: none;
+	}
+	.chatbot-footer {
+		position: absolute;
+		width: 160px;
+		font-size: 30px;
+		margin-left: 1100px;
+	}
+	.for-business-footer {
+		position: absolute;
+		font-size: 30px;
+		width: 210px;
+		margin-left: 1325px;
+		text-decoration: none;
+	}
+}
+
+@media all and (max-width: 1820px) {
+	.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+		display: block;
+		width: 750px;
+		position: relative;
+	}
+	.form-title {
+		margin-left: 40vw;
+		font-size: 60px;
+	}
+	.form-text1, .form-text2 {
+		margin-left: 40vw;
+	}
+}
+
+@media all and (max-width: 1500px) {
+	.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+		display: block;
+		width: 750px;
+		position: relative;
+	}
+	.form-title {
+		margin-left: 50vw;
+		font-size: 60px;
+	}
+	.form-text1, .form-text2 {
+		margin-left: 50vw;
+	}
+}
+
+@media all and (max-width: 1366px) {
+		a .fas {
+			cursor: pointer;
+			position: absolute;
+			margin-top: 350px;
+			font-size: 60px;
+		}
+
+		.upper {
+			position: absolute;
+			margin-top: -120px;
+			margin-bottom: 100px;
+		}
+
+		.home-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 50px;
+			text-decoration: none;
+		}
+
+		.home-upper:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-upper {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			margin-left: 850px;
+			text-decoration: none;
+		}
+		.chatbot-upper:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-upper {
+			position: absolute;
+			font-size: 30px;
+			width: 300px;
+			margin-left: 1100px;
+			text-decoration: none;
+		}
+		.for-business-upper:hover {
+			text-decoration: underline;
+		}
+
+		/*----------------------------------------------------------------*/
+
+		.title-and-photo {
+			position: relative;
+			margin-top: 150px;
+			display: flex;
+			margin-bottom: 50px;
+		}
+
+		.case-title-and-main-text {
+			display: block;
+		}
+
+		.case-main-text {
+			width: 700px;
+			font-weight: 400;
+			margin-top: 50px;
+			padding-left: 50px;
+			font-size: 30px;
+		}
+
+		.case-title {
+			text-align: center;
+			font-size: 50px;
+			width: 700px;
+			margin-top: 100px;
+			padding-left: 50px;
+		}
+
+		img {
+			position: absolute;
+		}
+
+		.iphone {
+			width: 400px;
+			margin-left: 850px;
+			height: auto;
+			z-index: 1000;
+		}
+
+		.screen {
+			width: 350px;
+			padding-top: 27px;
+			padding-left: 24px;
+			z-index: 500;
+			height: auto;
+			margin-left: 850px;
+		}
+
+		.active {
+			z-index: 700;
+		}
+
+		.info-problem, .decision-summary {
+			padding-left: 50px;
+			padding-right: 50px;
+			display: flex;
+		}
+
+		.info-problem {
+			margin-top: 0px;
+		}
+
+		.case-info-block, .case-problem-block, .case-decision-block, .case-summary-block {
+			display: block;
+			width: 900px;
+			position: relative;
+		}
+
+		.case-problem-block, .case-summary-block {
+			margin-left: 100px;
+		}
+
+		.case-info-title, .case-problem-title, .case-decision-title, .case-summary-title {
+			font-size: 50px;
+		}
+
+		.case-info-text, .case-problem-text, .case-decision-text, .case-summary-text {
+			font-size: 30px;
+			font-weight: 400;
+		}
+
+		.functionality {
+			margin-top: 150px;
+			display: flex;
+			margin-left: 25px;
+		}
+
+		.functionality-block {
+			margin-top: 50px;
+			margin-left: 20px;
+			display: block;
+		}
+
+		.functionality-main-title {
+			margin-top: -70px;
+			margin-left: 20px;
+			font-size: 50px;
+			position: absolute;
+		}
+
+		.functionality-title {
+		/*	text-align: center;*/
+			font-weight: 600;
+			font-size: 35px;
+		}
+
+		.functionality-text {
+			font-size: 30px;
+		}
+
+		.fa-circle-chevron-right {
+			position: relative;
+			margin-top: 8px;
+		/*	margin-right: 10px;*/
+			font-size: 30px;
+		}
+
+
+		.decision-summary {
+			margin-top: 100px;
+			display: flex;
+		}
+
+		.fa-circle-arrow-left{
+			cursor: default;
+			font-size: 80px;
+			margin-top: 500px;
+			margin-left: 30px;
+		}
+
+		.edge-button {
+			color: #999;
+		}
+
+		.fa-circle-arrow-right {
+			position: absolute;
+			font-size: 80px;
+			margin-top: 500px;
+			margin-left: 505px;
+		}
+
+		.fa-circle-arrow-left:active, .fa-circle-arrow-right:active {
+			color: var(--black2);
+		}
+
+		/*-------------------------------------------------------------------*/
+		.box {
+			position: relative;
+			margin-top: 100px;
+			margin-left: 75px;
+			margin-bottom: 150px;
+			width: 380px;
+			height: 600px;
+			background: #000;
+			border-radius: 8px;
+			overflow: hidden;
+			display: flex;
+		}
+		.box::before {
+			margin-top: 170px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 380px;
+			height: 430px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+		}
+		.box::after {
+			margin-top: 170px;
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: -50%;
+			width: 380px;
+			height: 430px;
+			background: linear-gradient(0deg, transparent,
+				transparent, var(--neon-color-1), var(--white), var(--neon-color-1));
+			z-index: 1;
+			transform-origin: bottom right;
+			animation: animate 6s linear infinite;
+			animation-delay: -3s;
+		}
+		@keyframes animate {
+			0%
+			{
+				transform: rotate(0deg);
+			}
+			100%
+			{
+				transform: rotate(360deg);
+			}
+		}
+		.box form {
+			position: absolute;
+			inset: 4px;
+			background: #111;
+			padding: 50px 40px;
+			border-radius: 8px;
+			z-index: 2;
+			display: flex;
+			flex-direction: column;
+		}
+		.box form h2 {
+			color: #fff;
+			font-size: 25px;
+			font-weight: 500;
+			text-align: center;
+			letter-spacing: 0.1em;
+			margin-bottom: 55px;
+		}
+		.box form .inputBox {
+			position: relative;
+			width: 300px;
+			margin-top: 15px;
+		}
+		.box form .inputBox input {
+			margin-top: 15px;
+			position: relative;
+			width: 100%;
+			padding: 20px 10px 10px;
+			background: transparent;
+			outline: none;
+			border: none;
+			box-shadow: none;
+			color: #242c39;
+			font-size: 1em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+			z-index: 10;
+		}
+		.box form .inputBox span {
+			margin-top: -50px;
+			position: absolute;
+			left: 0;
+			padding: 20px 0px 10px;
+			pointer-events: none;
+			color: #8f8f8f;
+			font-size: 1em;
+			letter-spacing: 0.05em;
+			transition: 0.5s;
+		}
+		.box form .inputBox input:valid ~ span,
+		.box form .inputBox input:focus ~ span {
+			color: #fff;
+			font-size: 0.75em;
+			transform: translateY(-34px);
+		}
+		.box form .inputBox i {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 2px;
+			background: #fff;
+			border-radius: 4px;
+			overflow: hidden;
+			transition: 0.5s;
+			pointer-events: none;
+		}
+		.box form .inputBox input:valid ~ i,
+		.box form .inputBox input:focus ~ i {
+			height: 44px;
+		}
+		.box form input[type='submit'] {
+			border: none;
+			outline: none;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			color: #fff;
+			background: linear-gradient(var(--neon-color-1), var(--neon-color-2)) var(--neon-color-2);
+			cursor: pointer;
+			font-size: 1em;
+			border-radius: 4px;
+			font-weight: 400;
+			text-align: center;
+			width: 300px;
+			height: 40px;
+			margin-top: 35px;
+		}
+
+		.box form input[type='submit']:hover { background: linear-gradient(#9724c8, #661987) #9724c8; }
+		.box form input[type='submit']:active { background: linear-gradient(#661987, #9724c8) #661987; }
+
+
+		.form-title {
+			position: absolute;
+			letter-spacing: 0.05em;
+			font-size: 50px;
+			margin-top: -115vh;
+			margin-left: 40vw;
+		}
+
+		.form-text1 {
+			position: absolute;
+			font-weight: 400;
+			width: 50vw;
+			font-size: 30px;
+			margin-top: -95vh;
+			margin-left: 40vw;
+		}
+
+		.form-text2 {
+			position: absolute;
+			font-weight: 400;
+			width: 50vw;
+			font-size: 30px;
+			margin-top: -70vh;
+			margin-left: 40vw;
+		}
+
+
+		/*------------------------- П О Д В А Л -----------------------------------------*/
+
+		.footer {
+			position: absolute;
+			margin-top: -75px;
+			margin-left: 75px;
+		}
+
+		.logo-footer {
+			position: absolute;
+			width: 300px;
+			font-size: 30px;
+			padding-bottom: 50px;
+		}
+
+		.oferta {
+			position: absolute;
+			margin-left: 22.5vw;
+			width: 300px;
+			font-size: 30px;
+			text-decoration: none;
+		}
+		.oferta:hover {
+			text-decoration: underline;
+		}
+
+		.chatbot-footer {
+			position: absolute;
+			font-size: 30px;
+			width: 180px;
+			margin-left: 60vw;
+			text-decoration: none;
+		}
+		.chatbot-footer:hover {
+			text-decoration: underline;
+		}
+
+		.for-business-footer {
+			position: absolute;
+			width: 230px;
+			font-size: 30px;
+			margin-left: 75vw;
+			text-decoration: none;
+		}
+		.for-business-footer:hover {
+			text-decoration: underline;
+		}
+}
+
+@media all and (max-width: 1320px) {
+	.chatbot-footer {
+		margin-left: 750px;
+	}
+	.for-business-footer {
+		margin-left: 925px;
+	}
+	.form-title {
+		margin-top: -700px;
+	}
+	.form-text1, .form-text2 {
+		width: 600px;
+	}
+	.form-text1 {
+		margin-top: -600px;
+	}
+	.form-text2 {
+		margin-top: -450px;
+	}
+	.case-main-text {
+		width: 550px;
+		font-size: 23px;
+	}
+	.case-title {
+		font-size: 35px;
+		width: 550px;
+	}
+	.case-info-block, .case-problem-block {
+		margin-top: 150px;
+	}
+	.iphone {
+		margin-left: 750px;
+	}
+	.screen {
+		margin-left: 750px;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 80px;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 555px;
+	}
+	.chatbot-upper {
+		margin-left: 750px;
+	}
+	.for-business-upper {
+		margin-left: 950px;
+	}
+}
+
+@media all and (max-width: 1250px) {
+	.logo-footer, .oferta, .home-upper {
+		font-size: 27px;
+	}
+	.chatbot-footer {
+		font-size: 27px;
+		margin-left: 700px;
+	}
+	.for-business-footer {
+		font-size: 27px;
+		margin-left: 875px;
+	}
+	.form-title {
+		font-size: 45px;
+	}
+	.form-text1, .form-text2 {
+		width: 500px;
+	}
+	.form-text1 {
+		margin-top: -600px;
+	}
+	.form-text2 {
+		margin-top: -450px;
+	}
+	.case-main-text {
+		width: 500px;
+		font-size: 23px;
+	}
+	.case-title {
+		font-size: 35px;
+		width: 500px;
+	}
+	.form-text1, .form-text2, .case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text {
+		font-size: 23px;
+	}
+	.form-title, .case-info-title, .case-problem-title, .functionality-main-title, .case-summary-title, .case-decision-title {
+		font-size: 35px;
+	}
+	.functionality-title{
+		font-size: 30px;
+	}
+	.iphone {
+		margin-left: 700px;
+	}
+	.screen {
+		margin-left: 700px;
+	}
+	.chatbot-upper {
+		font-size: 27px;
+		margin-left: 700px;
+	}
+	.for-business-upper {
+		font-size: 27px;
+		margin-left: 900px;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.chatbot-footer {
+		margin-left: 650px;
+	}
+	.for-business-footer {
+		margin-left: 825px;
+	}
+	.form-title {
+		font-size: 45px;
+	}
+	.form-text1, .form-text2 {
+		width: 500px;
+	}
+	.form-text1 {
+		margin-top: -600px;
+	}
+	.case-main-text {
+		width: 500px;
+		font-size: 23px;
+	}
+	.case-title {
+		font-size: 35px;
+		width: 500px;
+	}
+	.iphone {
+		margin-left: 650px;
+	}
+	.screen {
+		margin-left: 650px;
+	}
+	.chatbot-upper {
+		margin-left: 650px;
+	}
+	.for-business-upper {
+		margin-left: 850px;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 505px;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 35px;
+	}
+}
+
+@media all and (max-width: 1150px) {
+	.chatbot-footer {
+		margin-left: 600px;
+	}
+	.for-business-footer {
+		margin-left: 775px;
+	}
+	.form-title {
+		font-size: 45px;
+		margin-left: 500px;
+	}
+	.form-text1, .form-text2 {
+		margin-left: 500px;
+		width: 500px;
+	}
+	.form-text1 {
+		margin-top: -600px;
+	}
+	.case-main-text {
+		width: 500px;
+		font-size: 23px;
+	}
+	.case-title {
+		font-size: 35px;
+		width: 500px;
+	}
+	.iphone {
+		margin-left: 600px;
+	}
+	.screen {
+		margin-left: 600px;
+	}
+	.chatbot-upper {
+		margin-left: 650px;
+	}
+	.for-business-upper {
+		margin-left: 850px;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 455px;
+	}
+	.fa-circle-arrow-left {
+		margin-left: -15px;
+	}
+}
+
+@media all and (max-width: 1100px) {
+	.chatbot-footer {
+		margin-left: 550px;
+	}
+	.for-business-footer {
+		margin-left: 725px;
+	}
+	.form-title {
+		font-size: 40px;
+	}
+	.form-text1, .form-text2 {
+		width: 450px;
+	}
+	.form-text1 {
+		margin-top: -600px;
+	}
+	.case-main-text {
+		width: 400px;
+		font-size: 21px;
+	}
+	.case-title {
+		font-size: 35px;
+		width: 400px;
+	}
+	.iphone {
+		margin-top: 100px;
+		margin-left: 550px;
+	}
+	.screen {
+		margin-top: 100px;
+		margin-left: 550px;
+	}
+	.chatbot-upper {
+		margin-left: 550px;
+	}
+	.for-business-upper {
+		margin-left: 750px;
+	}
+	.fa-circle-arrow-right {
+		margin-top: 500px;
+		margin-left: 505px;
+	}
+	.fa-circle-arrow-left {
+		margin-top: 500px;
+		margin-left: 35px;
+	}
+	.box {
+		margin-left: 50px;
+	}
+}
+
+@media all and (max-width: 1050px) {
+	.title-and-photo {
+		display: block;
+	}
+	.case-title, .case-main-text {
+		padding-right: 50px;
+		text-align: center;
+		padding-left: 5%;
+		width: 90%;
+	}
+	.info-problem {
+		margin-top: 900px;
+	}
+	.iphone, .screen {
+		margin-left: 30vw;
+	}
+	.fa-circle-arrow-right {
+		margin-top: 400px;
+		margin-left: 72.5vw;
+	}
+	.fa-circle-arrow-left {
+		margin-top: 400px;
+		margin-left: 20vw;
+	}
+	.form-title {
+		font-size: 35px;
+		margin-left: 500px;
+	}
+	.form-text1, .form-text2 {
+		margin-left: 500px;
+		width: 450px;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.chatbot-upper {
+		margin-left: 600px;
+	}
+	.for-business-upper {
+		margin-left: 750px;
+	}
+	.case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text {
+		font-size: 23px;
+		width: 90vw;
+	}
+	.case-problem-block {
+		margin-top: 0px;
+	} 
+	.functionality-title {
+		width: 500px;
+	}
+	.functionality, .info-problem, .decision-summary {
+		display: block;
+	}
+	.case-problem-block, .case-summary-block {
+		margin-left: 0px;
+	}
+	.form-title, .form-text1, .form-text2 {
+		margin-left: 50px;
+		width: 90vw;
+	}
+	.form-title {
+		margin-left: 0;
+		width: 100vw;
+		text-align: center;
+		margin-top: -1100px;
+	}
+	.form-text1 {
+		margin-top: -1000px;
+	}
+	.form-text2 {
+		margin-top: -900px;
+	}
+	.box {
+		margin-left: 30vw;
+		margin-top: 400px;
+	}
+	.logo-footer {
+		width: 80vw;
+		margin-top: 100px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.oferta {
+		width: 300px;
+		margin-left: 50px;
+	}
+	.chatbot-footer {
+		margin-left: 350px;
+	}
+	.for-business-footer {
+		width: 200px;
+		margin-left: 525px;
+	}
+}
+
+@media all and (max-width: 950px) {
+	.chatbot-upper {
+		margin-left: 550px;
+	}
+	.for-business-upper {
+		margin-left: 700px;
+	}
+	.box {
+		margin-left: 30vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 75vw;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.chatbot-upper {
+		margin-left: 500px;
+	}
+	.for-business-upper {
+		margin-left: 650px;
+	}
+	.box {
+		margin-left: 25vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 77.5vw;
+	}
+	.oferta {
+		margin-left: 0px;
+	}
+	.chatbot-footer {
+		margin-left: 300px;
+	}
+	.for-business-footer {
+		margin-left: 475px;
+	}
+}
+
+@media all and (max-width: 850px) {
+	.chatbot-upper {
+		margin-left: 450px;
+	}
+	.for-business-upper {
+		margin-left: 600px;
+	}
+	.box {
+		margin-left: 25vw;
+	}
+	.iphone, .screen {
+		margin-left: 25vw;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 15vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 75vw;
+	}
+	.oferta {
+		text-align: center;
+		width: 80vw;
+		margin-left: 0px;
+		margin-top: 75px;
+	}
+	.chatbot-footer {
+		margin-left: 175px;
+	}
+	.for-business-footer {
+		margin-left: 325px;
+	}
+	.logo-footer {
+		margin-top: 150px;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.chatbot-upper {
+		margin-left: 400px;
+	}
+	.for-business-upper {
+		margin-left: 550px;
+	}
+	.iphone, .screen {
+		margin-left: 22.5vw;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 12.5vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 75vw;
+	}
+	.oferta {
+		text-align: center;
+		width: 80vw;
+		margin-left: 0px;
+		margin-top: 75px;
+	}
+	.chatbot-footer {
+		margin-left: 150px;
+	}
+	.for-business-footer {
+		margin-left: 300px;
+	}
+	.logo-footer {
+		margin-top: 150px;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.home-upper {
+		width: 80vw;
+		text-align: center;
+	}
+	.chatbot-upper {
+		margin-left: 175px;
+		margin-top: 50px;
+	}
+	.for-business-upper {
+		margin-top: 50px;
+		margin-left: 375px;
+	}
+	.iphone, .screen {
+		margin-left: 22.5vw;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 12.5vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 80vw;
+	}
+	.chatbot-footer {
+		margin-left: 125px;
+	}
+	.for-business-footer {
+		margin-left: 275px;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.chatbot-upper {
+		margin-left: 150px;
+	}
+	.for-business-upper {
+		margin-left: 350px;
+	}
+	.chatbot-footer {
+		margin-left: 100px;
+	}
+	.for-business-footer {
+		margin-left: 250px;
+	}
+	.oferta, .logo-footer {
+		width: 80vw;
+	}
+	.box {
+		margin-left: 20vw;
+	}
+	.iphone, .screen {
+		margin-left: 20vw;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 10vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 80vw;
+	}
+}
+
+
+@media all and (max-width: 650px) {
+	.case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text {
+		font-size: 20px;
+	}
+	.box {
+		margin-left: 17.5vw;
+	}
+	.chatbot-footer {
+		margin-left: 50px;
+	}
+	.for-business-footer {
+		margin-left: 200px;
+	}
+	.oferta, .logo-footer {
+		width: 70vw;
+	}
+	.fa-circle-arrow-right {
+		margin-left: 85vw;
+	}
+
+@media all and (max-width: 600px) {
+	.chatbot-upper {
+		margin-left: 100px;
+	}
+	.for-business-upper {
+		margin-left: 300px;
+	}
+	.iphone, .screen {
+		margin-left: 15vw;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 5vw;
+	}
+}
+
+@media all and (max-width: 550px) {
+	.functionality-title {
+		font-size: 25px;
+		width: 80vw;
+	}
+	a .fas {
+		font-size: 45px;
+	}
+	.case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text {
+		width: 80vw;
+		font-size: 20px;
+	}
+	.form-text1, .form-text2 {
+		font-size: 20px;
+		width: 80vw;
+	}
+	.home-upper {
+		font-size: 23px;
+	}
+	.chatbot-upper {
+		font-size: 23px;
+		margin-left: 100px;
+	}
+	.for-business-upper {
+		font-size: 23px;
+		margin-left: 300px;
+	}
+	.case-title {
+		font-size: 30px;
+	}
+	.iphone, .screen {
+		margin-left: 15vw;
+	}
+	.iphone {
+		width: 350px;
+	}
+	.screen {
+		width: 300px;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 5vw;
+	}
+	.box {
+		margin-left: 12.5vw;
+	}
+	.chatbot-footer {
+		font-size: 23px;
+		margin-left: 50px;
+	}
+	.for-business-footer {
+		font-size: 23px;
+		margin-left: 200px;
+	}
+	.oferta, .logo-footer {
+		font-size: 23px;
+		width: 70vw;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.home-upper {
+		width: 75vw;
+		font-size: 23px;
+	}
+	.chatbot-upper {
+		font-size: 23px;
+		margin-left: 50px;
+	}
+	.for-business-upper {
+		font-size: 23px;
+		margin-left: 250px;
+	}
+	.fa-circle-arrow-left {
+		margin-left: 0vw;
+	}
+	.iphone, .screen {
+		margin-left: 9vw;
+	}
+	.form-title {
+		font-size: 30px;
+	}
+	.box {
+		margin-left: 7.5vw;
+	}
+	.chatbot-footer {
+		font-size: 23px;
+		margin-left: 0px;
+	}
+	.for-business-footer {
+		font-size: 23px;
+		margin-left: 150px;
+	}
+	.oferta, .logo-footer {
+		font-size: 23px;
+		width: 325px;
+	}
+}
+
+@media all and (max-width: 450px) {
+	.for-business-upper {
+		margin-left: 200px;
+	}
+	.box {
+		margin-left: 25px;
+	}
+	.form-title {
+		margin-top: -1130px;
+	}
+	.form-text1 {
+		margin-left: 50px;
+		width: 95vw;
+		margin-top: -1050px;
+	}
+	.form-text2 {
+		margin-left: 50px;
+		width: 95vw;
+		margin-top: -900px;
+	}
+	.iphone {
+		margin-left: 10vw;
+		width: 300px;
+	}
+	.screen {
+		margin-left: 10vw;
+		width: 250px;
+	}
+	.info-problem {
+		margin-top: 700px;
+	}
+	.case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text, .form-text1, .form-text2 {
+		width: 70vw;
+		font-size: 20px;
+	}
+
+@media all and (max-width: 430px) {
+	.box {
+		margin-left: 0;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.iphone {
+		margin-left: 12vw;
+		width: 275px;
+	}
+	.screen {
+		margin-left: 12vw;
+		width: 225px;
+	}
+	a .fas {
+		font-size: 35px;
+	}
+	.form-title {
+		font-size: 27.5px;
+	}
+	.box {
+		width: 100%;
+	}
+	.box form .inputBox, .box form input[type='submit'] {
+		width: 250px;
+	}
+	.chatbot-footer {
+		font-size: 23px;
+		margin-left: -50px;
+	}
+	.for-business-footer {
+		font-size: 23px;
+		margin-left: 100px;
+	}
+	.logo-footer {
+		font-size: 23px;
+		width: 60vw;
+	}
+	.oferta {
+		font-size: 23px;
+		margin-left: -50px;
+		width: 80vw;
+	}
+	.case-title {
+		font-size: 27px;
+	}
+}
+
+@media all and (max-width: 370px) {
+	.iphone {
+		margin-left: 12vw;
+		width: 250px;
+	}
+	.screen {
+		margin-left: 12vw;
+		width: 200px;
+	}
+	.case-title-and-main-text h1 {
+		font-size: 23px;
+	}
+	.home-upper {
+		font-size: 20px;
+		width: 65vw;
+	}
+	.chatbot-upper {
+		font-size: 20px;
+		margin-left: 20px;
+	}
+	.for-business-upper {
+		font-size: 20px;
+		margin-left: 170px;
+	}
+	.functionality-title i {
+		font-size: 25px;
+	}
+	.functionality-title {
+		font-size: 22px;
+	}
+	.case-title, .case-decision-title, .case-summary-title, .functionality-main-title, .case-problem-title, .case-info-title{
+		font-size: 28px;
+	}
+	.form-title {
+		font-size: 25px;
+	}
+	.case-info-text, .case-problem-text, .functionality-text, .case-decision-text, .case-summary-text, .form-text1, .form-text2 {
+		width: 70vw;
+		font-size: 18px;
+	}
+	.form-text1 {
+		margin-top: -1025px;
+		margin-left: 25px;
+		width: 90vw;
+	}
+	.form-text2 {
+		width: 90vw;
+		margin-left: 25px;
+		margin-top: -900px;
+	}
+	.case-title {
+		width: 80vw;
+	}
+	.case-main-text {
+		width: 80vw;
+		font-size: 18px;
+	}
+	.box form h2 {
+		font-size: 23px;
+	}
+	.box form .inputBox {
+		margin-top: 0px;
+	}
+	.box form input[type='submit'] {
+		margin-top: 50px;
+	}
+	.for-business-footer {
+		font-size: 23px;
+		margin-left: 75px;
+	}
+}
+
+
+/*---------------------------------------------------*/
+
+@media screen and (prefers-reduced-motion) { 
+	h1 {
+		animation: none;
+	}
+}

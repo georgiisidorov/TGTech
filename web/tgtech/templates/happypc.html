@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Logo -->
+    <link href="static/images/logo.ico" rel="shortcut icon">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Static CSS -->
+    <link href="static/css/caseunitcss.css" rel="stylesheet"/>
+
+    <title>Кейс «HappyPC»</title>
+  </head>
+  <body>
+    <div class="upper">
+      <a type='button' href="https://tg-tech.ru" class='home-upper neon-text'>Главная страница</a>
+      <a type='button' href="https://tg-tech.ru/#chatbot" class="chatbot-upper neon-text">Чат-боты</a>
+      <a type='button' href="https://tg-tech.ru/#solutions" class="for-business-upper neon-text">Для бизнеса</a>
+    </div>
+
+    <div class="title-and-photo">
+      <div class="case-title-and-main-text">
+        <h1 class="case-title neon-text">Как сделать автоматизированную онлайн техподдержку клиентов?</h1>
+        <h2 class="case-main-text neon-text">Расскажем, как интеграция чат-бота помогла компании «HappyPC» решить сразу несколько проблем:<br><br>- Дала возможность получить сразу нужную информацию пользователям, неимеющим определённые знания в компьютерной области<br><br>- Помогла уже опытным пользователям сразу без лишнего ожидания сделать заказ на нужную сборку<br><br>- Снизила расходы на консультантов с нужными знаниями в области компьютерных технология. Чат-бот даёт возможность не использовать их вообще</h2>
+      </div>
+      <a type="button" onclick="click_left()"><i class="fas fa-circle-arrow-left neon-text edge-button"></i></a>
+      <img class='iphone' src="static/images/iphone.png">
+      <img class='screen screen_happypc_1 active' src="static/images/screen_happypc_1.jpg">
+      <img class='screen screen_happypc_2' src="static/images/screen_happypc_2.jpg">
+      <img class='screen screen_happypc_3' src="static/images/screen_happypc_3.jpg">
+      <img class='screen screen_happypc_4' src="static/images/screen_happypc_4.jpg">
+      <img class='screen screen_happypc_5' src="static/images/screen_happypc_5.jpg">
+      <img class='screen screen_happypc_6' src="static/images/screen_happypc_6.jpg">
+      <img class='screen screen_happypc_7' src="static/images/screen_happypc_7.jpg">
+      <a type="button" onclick="click_right()"><i class="fas fa-circle-arrow-right neon-text"></i></a>
+    </div>
+
+    <div class="info-problem">
+      <div class="case-info-block">
+        <h2 class="case-info-title neon-text">О компании</h2>
+        <h2 class="case-info-text neon-text">«HappyPC» - это группа профессионалов, начавшая свою деятельность ещё в 2018 году в качестве небольшого стартапа из двух человек. К 2023 году команда переросла в полноценную компанию с филиалами в трёх городах России. «HappyPC» предоставляет качественные услуги по сборке десктопных компьютеров разной производительности и ценового диапазона.</h2>
+      </div>
+
+      <div class="case-problem-block">
+        <h2 class="case-problem-title neon-text">Проблема</h2>
+        <h2 class="case-problem-text neon-text">Cотрудникам «HappyPC» все время приходилось держать при себе рабочий телефон, чтобы обеспечивать техническую поддержку своих клиентов 24/7, при этом помнить о многих клиентах, которые уже попросили помощь, но еще не получили ее.</h2>
+      </div>
+    </div>
+
+    <div class="functionality">
+      <h1 class='functionality-main-title neon-text'>Функционал</h1>
+      <div class="functionality-block">
+        <div class="functionality-title neon-text"><i class='fas fa-circle-chevron-right'></i>&nbsp;&nbsp;Актуальные цены на комплектующие</div>
+        <div class="functionality-text neon-text">Бот на постоянной основе поддерживается актуальной информацией, касаемо цен на комплектующие и на сборки в целом</div>
+      </div>
+      <div class="functionality-block">
+        <div class="functionality-title neon-text"><i class='fas fa-circle-chevron-right'></i>&nbsp;&nbsp;Расчёт стоимости сборки</div>
+        <div class="functionality-text neon-text">В зависимости от бюджета покупателя, бот способен просчитать стоимость сборки, в зависимости от курса рубля и актуальности комплектующих.</div>
+      </div>
+      <div class="functionality-block">
+        <div class="functionality-title neon-text"><i class='fas fa-circle-chevron-right'></i>&nbsp;&nbsp;Аналитика пользователей</div>
+        <div class="functionality-text neon-text">Бот беспрерывно собирает статистику нажатий пользователей на ту или иную кнопку, что позволяет оптимизировать его работу.</div>
+      </div>
+    </div>
+
+    <div class="decision-summary">
+      <div class="case-decision-block">
+        <h2 class="case-decision-title neon-text">Решение</h2>
+        <h2 class="case-decision-text neon-text">Онлайн чат-бот для автономной поддержки клиентов, с помощью которого можно получить ответы на все интересующие клиента вопросы. Также бот помогает согласовывать процесс сборки ПК. В случае если вопросы остались, бот создаёт чат, где вопрос можно будет задать напрямую сотруднику компании</h2>
+      </div>
+
+      <div class="case-summary-block">
+        <h2 class="case-summary-title neon-text">Вывод</h2>
+        <h2 class="case-summary-text neon-text">И клиентам, и сотрудникам стало проще и удобней контролировать процесс сборки. Сокращено время ожидания ответа пользователем. Бот сократил расход на онлайн-консультантов</h2>
+      </div>
+    </div>
+
+    <div class="box" id='form'>
+      <form action='form.php' method="POST" autocomplete="off" novalidate>
+        <h2 class="neon-text">Заполните форму, и мы свяжемся с Вами в ближайшее время</h2>
+        <div class="inputBox">
+          <input type="text" id='username' name='username' required>
+          <span>Имя</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="text" id='phone_number' name='phone_number' required>
+          <span>Телефон</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input id='email' name='email' required>
+          <span>Электронная почта</span>
+          <i></i>
+        </div>
+        <input name='submitButton' type="submit" value="Подать заявку">
+      </form>
+    </div>
+
+    <div class="form-text-nearby neon-text">
+      <h2 class="form-title">Готовы пообщаться?</h2>
+      <h2 class="form-text1">Закажите разработку собственного бота и запустите автоматизацию бизнес-процессов прямо сейчас!</h2>
+      <h2 class="form-text2">Бот увеличит продажи, сократит затраты на менеджеров и возглавит поддержку Ваших клиентов в Telegram.</h2>
+    </div>
+
+    <div class="footer">
+      <p class="logo-footer neon-text">© TG-Tech, 2020</p>
+      <a type='button' href="https://tg-tech.ru/oferta.html" class='oferta neon-text'>Публичная оферта</a>
+      <a type='button' href="https://tg-tech.ru/#chatbot" class="chatbot-footer neon-text">Чат-боты</a>
+      <a type='button' href="https://tg-tech.ru/#solutions" class="for-business-footer neon-text">Для бизнеса</a>
+    </div>
+
+        <script>
+      let arrow_left = document.querySelector('.fa-circle-arrow-left');
+      let arrow_right = document.querySelector('.fa-circle-arrow-right');
+      let screen_happypc_1 = document.querySelector('.screen_happypc_1');
+      let screen_happypc_2 = document.querySelector('.screen_happypc_2');
+      let screen_happypc_3 = document.querySelector('.screen_happypc_3');
+      let screen_happypc_4 = document.querySelector('.screen_happypc_4');
+      let screen_happypc_5 = document.querySelector('.screen_happypc_5');
+      let screen_happypc_6 = document.querySelector('.screen_happypc_6');
+      let screen_happypc_7 = document.querySelector('.screen_happypc_7');
+
+      function click_right() {
+        let active_screen = document.querySelector('.active');
+        if (active_screen.classList.contains("screen_happypc_1")) {
+          screen_happypc_1.classList.remove('active');
+          screen_happypc_2.classList.add('active');
+          arrow_left.classList.remove('edge-button');
+          arrow_left.style.cursor = 'pointer';
+        } else if (active_screen.classList.contains("screen_happypc_2")) {
+          screen_happypc_2.classList.remove('active');
+          screen_happypc_3.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_3")) {
+          screen_happypc_3.classList.remove('active');
+          screen_happypc_4.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_4")) {
+          screen_happypc_4.classList.remove('active');
+          screen_happypc_5.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_5")) {
+          screen_happypc_5.classList.remove('active');
+          screen_happypc_6.classList.add('active')
+        } else if (active_screen.classList.contains("screen_happypc_6")) {
+          screen_happypc_6.classList.remove('active');
+          screen_happypc_7.classList.add('active');
+          arrow_right.style.cursor = 'default';
+          arrow_right.classList.add('edge-button');
+        }
+      }
+
+      function click_left() {
+        let active_screen = document.querySelector('.active');
+        
+        if (active_screen.classList.contains("screen_happypc_2")) {
+          screen_happypc_2.classList.remove('active');
+          screen_happypc_1.classList.add('active');
+          arrow_left.style.cursor = 'default';
+          arrow_left.classList.add('edge-button');
+        } else if (active_screen.classList.contains("screen_happypc_3")) {
+          screen_happypc_3.classList.remove('active');
+          screen_happypc_2.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_4")) {
+          screen_happypc_4.classList.remove('active');
+          screen_happypc_3.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_5")) {
+          screen_happypc_5.classList.remove('active');
+          screen_happypc_4.classList.add('active')
+        } else if (active_screen.classList.contains("screen_happypc_6")) {
+          screen_happypc_6.classList.remove('active');
+          screen_happypc_5.classList.add('active');
+        } else if (active_screen.classList.contains("screen_happypc_7")) {
+          screen_happypc_7.classList.remove('active');
+          screen_happypc_6.classList.add('active');
+          arrow_right.style.cursor = 'pointer';
+          arrow_right.classList.remove('edge-button');
+        }
+      }
+
+    </script>
+  </body>
+</html>

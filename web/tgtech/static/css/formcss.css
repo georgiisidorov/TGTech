@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*------------- О Б Щ И Е   Н А С Т Р О Й К И ---------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+	--blue: #338ec5;
+	--white: #fff;
+	--black1: #111;
+	--black2: #999;
+	--sidebar-color: #242c39;
+	--body-color: #f1f4f9;
+	--border-color: #a4aeb9;
+	--neon-color-1: #7B00B0;
+	--neon-color-2: #5D0284;
+	--neon-color-3: #A302E9;
+	--neon-color-4: #42035d;
+}
+
+.neon-text {
+	padding-top: 15px;
+	color: #fff;
+	text-shadow: 
+		0 0 1px #fff,
+		0 0 3px #fff,
+		0 0 8px var(--neon-color-1),
+		0 0 15px var(--neon-color-1),
+		0 0 25px var(--neon-color-1),
+		0 0 45px var(--neon-color-1),
+		0 0 60px var(--neon-color-1);
+}
+
+@media screen and (min-width: 1367px) {
+	.bodyposle {
+		height: 100vh;
+		display: block;
+		background-color: var(--black1);
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	h1 {
+		margin-top: 100px;
+		width: 100%;
+		font-size: 70px;
+		margin-bottom: 200px;
+	}
+
+	a {
+		text-decoration: none;
+		border: none;
+		outline: none;
+		padding: 18px;
+		color: #fff;
+		background: linear-gradient(var(--neon-color-1), var(--neon-color-2)) var(--neon-color-2);
+		cursor: pointer;
+		font-size: 45px;
+		border-radius: 8px;
+		font-weight: 400;
+		text-align: center;
+		width: 700px;
+		height: 100px;
+	}
+
+	a:hover { background: linear-gradient(#9724c8, #661987) #9724c8; }
+	a:active { background: linear-gradient(#661987, #9724c8) #661987; }
+}
+
+
+@media screen and (max-width: 1366px) {
+	.bodyposle {
+		height: 100vh;
+		display: block;
+		background-color: var(--black1);
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	h1 {
+		margin-top: 100px;
+		width: 100%;
+		font-size: 50px;
+		margin-bottom: 200px;
+	}
+
+	a {
+		text-decoration: none;
+		border: none;
+		outline: none;
+		padding: 18px;
+		color: #fff;
+		background: linear-gradient(var(--neon-color-1), var(--neon-color-2)) var(--neon-color-2);
+		cursor: pointer;
+		font-size: 34px;
+		border-radius: 8px;
+		font-weight: 400;
+		text-align: center;
+		width: 600px;
+		height: 80px;
+	}
+
+	a:hover { background: linear-gradient(#9724c8, #661987) #9724c8; }
+	a:active { background: linear-gradient(#661987, #9724c8) #661987; }
+}
+
+@media screen and (max-width: 750px) {
+	h1 {
+		font-size: 40px;
+	}
+	a {
+		font-size: 28px;
+		width: 500px;
+		height: 65px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	h1 {
+		font-size: 30px;
+	}
+	a {
+		font-size: 22px;
+		width: 400px;
+		height: 52px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 26px;
+	}
+	a {
+		font-size: 18px;
+		width: 300px;
+		height: 39px;
+	}
+}
+
+@media all and (orientation: landscape) and (max-height: 400px) {
+	h1 {
+		margin-top: 20px;
+		font-size: 30px;
+		margin-bottom: 120px;
+	}
+	a {
+		font-size: 20px;
+	}
+}
